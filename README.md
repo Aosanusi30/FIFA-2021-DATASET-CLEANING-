@@ -46,3 +46,13 @@ The main aim of this project is data cleaning and made available the data for an
 Before   |   After 
 :-----------------------:|:-----------------------:
  ![](Beforename.JPG) |  ![](AfterName.JPG) 
+
+  - **_ Photo URL and Player URL: _** Gives more information about the player and their photos since these columns won’t be used for analysis, these columns was removed from the dataset. 
+![](playerUrl.JPG)
+
+  -  **_Nationality and Age:_** These Columns had no missing values and data type is correct. These columns are for the analysis. 
+  ![](AGE.JPG) 
+  
+  - 
+
+
