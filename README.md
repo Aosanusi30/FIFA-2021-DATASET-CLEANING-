@@ -9,8 +9,17 @@ Data cleaning challenge #datacleaningchallenge was organized by Promise Nonso an
 The FIFA 2021 dataset was originally gotten from [Kaggle.com](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring) and it contains information about **18,979** football players and **77** columns. Some of the columns are Unique ID, Name, LongName, Age, Nationality. The dataset also has a data dictionary to familiarize with the date before cleaning. 
 
 # BACKGROUND 
-The dataset was gotten from Kaggle.com it was a messy data that needs to be cleaned before any analysis can be done. The data dictionary was used in familiarizing with the data. During the data cleaning or cleansing process, I detect corrupt, inaccurate, incomplete, irrelevant parts in records of the data, and also replace and modify the coarse data. To me, filter is an eye in seeing what is in the data. We can’t scroll around thousands of rows; so that best thing is to check using the filter; which row is cleaned and not. Filter is one of the best tools when it comes to data cleaning.
+The dataset was from [Kaggle.com](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring) it was a messy data that needs to be cleaned before any analysis can be done. The data dictionary was used in familiarizing with the data. During the data cleaning or cleansing process, I detect corrupt, inaccurate, incomplete, irrelevant parts in records of the data, and also replace and modify the coarse data. To me, filter is an eye in seeing what is in the data. We can’t scroll around thousands of rows; so that best thing is to check using the filter; which row is cleaned and not. Filter is one of the best tools when it comes to data cleaning.
 
-The dataset consists of 18,979 records and 77 columns and after the data cleansing the records are **189,978 and 78 fields** because some fields have to be modified like the **Contract**, to have the **Agreement Type** and the **Contract Duration** while the **Positions** the **No of positions** played. This can be used when you want to analysis the data and have insight on how many position has he never played for the club and which position is he good at. 
+The dataset consists of 18,979 records and 77 columns and after the data cleansing the records are **189,978 and 78 fields** because some fields have to be modified like the **Contract**, to have the **Agreement Type** and the **Contract Duration** while the **Positions** the **No of positions** played. This can be used when you want to analysis the data and have insight on how many position has he never played for the club and which position is he good at. The M Language was used and conditional column to clean the data in **Power BI**.  
  
- 
+# PROJECT OBJECTIVES 
+The main aim of this project is data cleaning and made available the data for analysis. 
+
+**What to look out for in the data** 
+1.	Incorrect Data type 
+2.	Spelling Errors and values 
+3.	Duplicate entry
+4.	Null entries 
+5.	Irrelevant data 
+6.	Unnecessary symbols in the column headings 
