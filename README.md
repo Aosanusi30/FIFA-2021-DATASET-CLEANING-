@@ -53,6 +53,55 @@ Before   |   After
   -  **_Nationality and Age:_** These Columns had no missing values and data type is correct. These columns are for the analysis. 
   ![](AGE.JPG) 
   
-  - 
+  - **_OVA and POT:_** OVA means Players Overall Analysis or rate in percentage and POT Players Potential in percentage according to the data dictionary. These columns are to be measured in percentage. So, the Percentage (%) data type was used and the value was divided by 100 to have the actual decimal. 
+  
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](BeforeOVAPOT.JPG) |  ![](afterOVA.JPG) 
+ 
+  - **_Contract:_** This column had a delimiter (~) and was changed to hyphen (-). The start date and the end date were not splitted, rather, two (2) additional columns were created for agreement type and contract duration. The contract duration was calculated by subtraction the end date and the start date while the agreement type column consists of contract, free and loan. Agreement type was created using conditional column and the contract duration using M Language  
+  
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](Beforename.JPG) |  ![](AfterName.JPG) 
 
+  - **_Height:_** The height column consist of two units centimeter and foot and inches. According to data dictionary, no unit was given to convert height to. So, I decided to convert the height to cm. The M Language was used to convert the foot and inches to centimeter. 1 foot = 30.48cm and 1 inche = 2.54cm e.g 
+5’9” = 5 * 30.48cm + 9 * 2.54cm = 175cm
 
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ 
+   - **_Weight:_** The weight column consists of two units kg and lbs. According to the data dictionary, we should convert weight to lbs. And this was done using the M Language and below is the code. 
+
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](WeightBefore.JPG) |  ![](Weightafter.JPG) 
+ 
+ - **_Load End Date:_** It represents when the play’s loan ends. This column contained some empty column which was replaced with No Loan. 
+
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ 
+  - **_Value, Wage and Release Clause:_** Represents the market value, weekly wage and release clause for each player. In this columns, thousands were denoted with K while Millions with M with and euro sign at the front. According to the data dictionary, all values should be in their normal forms and the pay is in euro. M Language ad conditional column was used to clean this column 
+
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ 
+  - **_W/F, S/M and IR:_** means W/F Player’s weak foot rating, S/M Skill Move Rating and IR Injure Rating was measured and a scale of 1 – 5. Special character ★ was found among the dataset and was removed using the replace value and the data type was changed to whole number  
+
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](Beforename.JPG) |  ![](AfterName.JPG) 
+
+ - **_Hits:_** this refers to the number of times a player’s profile had been viewed on the websites. The column contains some blanks which mean the players had no views. Some player hits 1 thousand and was represented as 1K. The conditional column was used to quickly clean this by representing the K as 1000. And this is the last step of the cleaning process. 
+
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](Hitsbefore.JPG) |  ![](Hitsafter.JPG) 
+ 
+  - **_Others:_** Columns such as ID, Longname, Nationality, Age, Preferred Foot, BOV, Best Position, Join, Attacking, Crossing, Finishing, Heading Accuracy, Short Passing, Volleys, Skill, Dribbling, Curve, FK Accuracy, Long Passing, Ball Control, Movement, Acceleration, Sprint Speed, Agility, Reactions, Balance, Power, Shot Power, Jumping, Stamina, Strength, Long Shots, Mentality, Aggression, Penalties, Interceptions, Positioning, Vision, Composure, Defending, Marking, Standing Tackle, Sliding Tackle, Goalkeeping, GK Diving, GK Handling, GK Kicking, GK Position, GK Reflexes, Total Stats, Base Stats, PAC, SHO, PAS, DRI, DEF and PHY  are OK and no cleaning was done on them.
+
+# CONCLUSION
