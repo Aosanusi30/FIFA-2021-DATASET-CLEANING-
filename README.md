@@ -32,4 +32,13 @@ The main aim of this project is data cleaning and made available the data for an
 2. **_Data Exploration:_** The data was viewed and a lot of errors, inaccuracy and inconsistency was discovered in the data e.g. the Name, LongName, Wages, Value, Release Clause column etc. has non-printed characters, inappropriate datatype  
 ![](screenshotofuncleandata.JPG)
 
+3.	**_Data Cleaning:_** In other to make this dataset ready and available for analysis, the step-by-step process used in cleaning the dataset is prescribed below. 
 
+   -	**_Club:_** After the Importing the Dataset into Power BI, in the Power Query Mode, there was much space between the rows that needs to be cleaned and the club column  was the source of this. So, my first step was to trim the club column. And it was done by clicking on **Transform**, **Navigating to format** and **clicking on Trim** 
+
+
+| Before | After|
+|:--------------------:|--------------------:|
+|  ![](BeforeClub.JPG) | ![](AfterClubs.JPG) |
+
+- 
