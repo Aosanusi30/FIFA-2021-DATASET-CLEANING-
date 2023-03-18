@@ -38,7 +38,11 @@ The main aim of this project is data cleaning and made available the data for an
 
 
 | Before | After|
-|:--------------------:|--------------------:|
+|:--------------------:|:--------------------:|
 |  ![](BeforeClub.JPG) | ![](AfterClubs.JPG) |
 
-- 
+   - **_Name:_** This column has special character in it. So, in order to remove this, I replace the special character with the player’s first name “S” Stefan. The players first name was gotten from the LongName Column by using the filter to filter the Longname column and by deselecting all other names in order to have more insight about that particular row. 
+
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](Beforename.JPG) |  ![](AfterName.JPG) 
