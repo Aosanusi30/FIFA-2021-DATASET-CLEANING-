@@ -88,7 +88,7 @@ Before   |   After
 
 Before   |   After 
 :-----------------------:|:-----------------------:
- ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ ![](loanbefore.JPG) |  ![](loan.JPG) 
  
   - **_Value, Wage and Release Clause:_** Represents the market value, weekly wage and release clause for each player. In this columns, thousands were denoted with K while Millions with M with and euro sign at the front. According to the data dictionary, all values should be in their normal forms and the pay is in euro. M Language ad conditional column was used to clean this column 
 
