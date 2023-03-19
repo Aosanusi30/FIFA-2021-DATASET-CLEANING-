@@ -63,14 +63,20 @@ Before   |   After
   
 Before   |   After 
 :-----------------------:|:-----------------------:
- ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ ![](contractbefore.JPG) |  ![](contractafter.JPG) 
 
+  - **_Position_**: This column list all the positions that a player had play during is time in the club. This position was modified to show the number of position he had played as No of Position. This was done by using the conditional columns 
+
+Before   |   After 
+:-----------------------:|:-----------------------:
+ ![](positionbefore.JPG) |  ![](positionAfter.JPG) 
+ 
   - **_Height:_** The height column consist of two units centimeter and foot and inches. According to data dictionary, no unit was given to convert height to. So, I decided to convert the height to cm. The M Language was used to convert the foot and inches to centimeter. 1 foot = 30.48cm and 1 inche = 2.54cm e.g 
 5’9” = 5 * 30.48cm + 9 * 2.54cm = 175cm
 
 Before   |   After 
 :-----------------------:|:-----------------------:
- ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ ![](beforeincheight.JPG) |  ![](Heightafter.JPG) 
  
    - **_Weight:_** The weight column consists of two units kg and lbs. According to the data dictionary, we should convert weight to lbs. And this was done using the M Language and below is the code. 
 
@@ -88,13 +94,13 @@ Before   |   After
 
 Before   |   After 
 :-----------------------:|:-----------------------:
- ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ ![](VWRbefore.JPG) |  ![](VWRafter.JPG) 
  
   - **_W/F, S/M and IR:_** means W/F Player’s weak foot rating, S/M Skill Move Rating and IR Injure Rating was measured and a scale of 1 – 5. Special character ★ was found among the dataset and was removed using the replace value and the data type was changed to whole number  
 
 Before   |   After 
 :-----------------------:|:-----------------------:
- ![](Beforename.JPG) |  ![](AfterName.JPG) 
+ ![](WFSMIRbefore.JPG) |  ![](WFSMIRafter.JPG) 
 
  - **_Hits:_** this refers to the number of times a player’s profile had been viewed on the websites. The column contains some blanks which mean the players had no views. Some player hits 1 thousand and was represented as 1K. The conditional column was used to quickly clean this by representing the K as 1000. And this is the last step of the cleaning process. 
 
