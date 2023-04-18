@@ -111,4 +111,7 @@ Before   |   After
   - **_Others:_** Columns such as ID, Longname, Nationality, Age, Preferred Foot, BOV, Best Position, Join, Attacking, Crossing, Finishing, Heading Accuracy, Short Passing, Volleys, Skill, Dribbling, Curve, FK Accuracy, Long Passing, Ball Control, Movement, Acceleration, Sprint Speed, Agility, Reactions, Balance, Power, Shot Power, Jumping, Stamina, Strength, Long Shots, Mentality, Aggression, Penalties, Interceptions, Positioning, Vision, Composure, Defending, Marking, Standing Tackle, Sliding Tackle, Goalkeeping, GK Diving, GK Handling, GK Kicking, GK Position, GK Reflexes, Total Stats, Base Stats, PAC, SHO, PAS, DRI, DEF and PHY  are OK and no cleaning was done on them.
 
 # CONCLUSION
-Cleaning a messy data needs patient and before cleaning, a copy of the dataset should be copy and keep in a safe place because of acxidental deletion or omission of date. The aim of this project has been met and the data is cleaned and ready for analysis. 
+Cleaning a messy data needs patient and before cleaning, a copy of the dataset should be copy and keep in a safe place because of accidental deletion or omission of data. The aim of this project has been met and the data is cleaned and ready for analysis. 
+
+# THANK YOU
+
