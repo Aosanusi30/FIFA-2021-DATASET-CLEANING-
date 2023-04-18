@@ -115,3 +115,4 @@ Cleaning a messy data needs patient and before cleaning, a copy of the dataset s
 
 # THANK YOU
 
+![](thank-you-2.gif)
