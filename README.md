@@ -78,7 +78,7 @@ Before   |   After
 :-----------------------:|:-----------------------:
  ![](beforeincheight.JPG) |  ![](Heightafter.JPG) 
  
-   - **_Weight:_** The weight column consists of two units kg and lbs. According to the data dictionary, we should convert weight to lbs. And this was done using the M Language and below is the code. 
+   - **_Weight:_** The weight column consists of two units kg and lbs. According to the data dictionary, we should convert weight to lbs. And this was done using the M Language.
 
 Before   |   After 
 :-----------------------:|:-----------------------:
