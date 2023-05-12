@@ -25,7 +25,7 @@ The main aim of this project is data cleaning and made available the data for an
 6.	Unnecessary symbols in the column headings 
 
 # CLEANED DATASET 
-- Click [here](https://github.com/Aosanusi30/FIFA-2021-DATASET-CLEANING-/blob/main/SQL%20Cleaning%20Query/fifadatasets.sql) for the SQL cleaned dataset
+- Click [here](https://github.com/Aosanusi30/FIFA-2021-DATASET-CLEANING-/commit/95f769ec6d786b56f6ab28cb0a39ca9c78a0026d) for the SQL cleaned dataset
 - Click [here](https://github.com/Aosanusi30/FIFA-2021-DATASET-CLEANING-/tree/main/Power%20BI%20file) for the Power BI cleaned dataset
 
 # CLEANING PROCESS 
